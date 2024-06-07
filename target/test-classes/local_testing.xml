@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Local Test Suite">
+    <test name="Local Test">
+        <parameter name="environment" value="local"/>
+        <groups>
+            <run>
+                <include name="local"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.instagram.test.*"/>
+        </packages>
+    </test>
+</suite>

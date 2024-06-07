@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Remote Test Suite">
+    <test name="Remote Test">
+        <parameter name="environment" value="remote"/>
+        <groups>
+            <run>
+                <include name="remote"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.instagram.test.*"/>
+        </packages>
+    </test>
+</suite>

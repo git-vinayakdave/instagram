@@ -1,0 +1,4 @@
+com\instagram\test\InstagramLoginTest.class
+com\instagram\test\InstagramPostCreationTest.class
+com\instagram\test\InstagramFollowTest.class
+com\instagram\test\InstagramLikeTest.class
